@@ -47,7 +47,7 @@
                     saepe veniam non atque id, aperiam molestiae doloribus quae alias eaque. Inventore iusto ipsa enim
                     minima dicta.
                 </p>
-                <button type="button" class="btn btn-primary col-4">
+                <button type="button" class="btn btn-primary col-12 col-md-4">
                     Contactame
                 </button>
             </div>
@@ -60,17 +60,24 @@
         <h2 class="text-center my-5">Mis Habilidades</h2>
         <div class="row justify-content-between">
             <div class="col d-flex flex-column flex-md-row justify-content-between">
-                <span class="py-2 py-md-2 d-flex align-items-center"><i class="fa-brands fa-html5 fa-2x me-2" id="icon__html"></i>HTML</span>
-                <span class="py-2 py-md-2 d-flex align-items-center"><i class="fa-brands fa-css3-alt fa-2x me-2" id="icon__css"></i>CSS</span>
-                <span class="py-2 py-md-2 d-flex align-items-center"><i class="fa-brands fa-sass fa-2x me-2" id="icon__sass"></i>Sass</span>
-                <span class="py-2 py-md-2 d-flex align-items-center"><i class="fa-brands fa-bootstrap fa-2x me-2"
+                <span class="py-2 d-flex align-items-center"><i class="fa-brands fa-html5 fa-2x me-2"
+                        id="icon__html"></i>HTML</span>
+                <span class="py-2 d-flex align-items-center"><i class="fa-brands fa-css3-alt fa-2x me-2"
+                        id="icon__css"></i>CSS</span>
+                <span class="py-2 d-flex align-items-center"><i class="fa-brands fa-sass fa-2x me-2"
+                        id="icon__sass"></i>Sass</span>
+                <span class="py-2 d-flex align-items-center"><i class="fa-brands fa-bootstrap fa-2x me-2"
                         id="icon__bootstrap"></i> Bootstrap<span>
             </div>
             <div class="col d-flex flex-column flex-md-row justify-content-between">
-                <span class="py-2 py-md-2 d-flex align-items-center"><i class="fa-brands fa-git-alt fa-2x me-2" id="icon__git"></i>Git</span>
-                <span class="py-2 py-md-2 d-flex align-items-center"><i class="fa-brands fa-github fa-2x me-2" id="icon__github"></i>GitHub</span>
-                <span class="py-2 py-md-2 d-flex align-items-center"><i class="fa-brands fa-square-js fa-2x me-2" id="icon__js"></i>JavaScript</span>
-                <span class="py-2 py-md-2 d-flex align-items-center"><i class="fa-brands fa-vuejs fa-2x me-2" id="icon__vuejs"></i>Vue</span>
+                <span class="py-2 d-flex align-items-center"><i class="fa-brands fa-git-alt fa-2x me-2"
+                        id="icon__git"></i>Git</span>
+                <span class="py-2 d-flex align-items-center"><i class="fa-brands fa-github fa-2x me-2"
+                        id="icon__github"></i>GitHub</span>
+                <span class="py-2 d-flex align-items-center"><i class="fa-brands fa-square-js fa-2x me-2"
+                        id="icon__js"></i>JavaScript</span>
+                <span class="py-2 d-flex align-items-center"><i class="fa-brands fa-vuejs fa-2x me-2"
+                        id="icon__vuejs"></i>Vue</span>
             </div>
         </div>
     </section>
@@ -109,14 +116,30 @@
     <!-- Termina sección mis proyectos -->
 
     <!-- Sección Contactame -->
-    <section class="container">
+    <section class="container mb-5">
         <h2 class="text-center my-5">Contactame</h2>
         <div class="row">
             <form action="" class="col-12 col-md-6">
-              <input type="text">  
+                <div class="row pb-2">
+                    <div class="col-6">
+                        <input class="form-control" type="text" placeholder="Nombre">
+                    </div>
+                    <div class="col-6">
+                        <input class="col-6 form-control" type="text" placeholder="Apellido">
+                    </div>
+                </div>
+                <input class="form-control mb-3" type="mail" placeholder="Tu Email">
+                <textarea class="form-control mb-3" name="mensaje" placeholder="Escribe tu mensaje"></textarea>
+                <div class="">
+                    <button type="button" class="btn btn-primary col-12 col-md-4">Enviar</button>
+                </div>
             </form>
-            <div class="col-12 col-md-6">
-
+            <div class="col-12 col-md-6 pt-5 pt-md-0 flex-column justify-content-between">
+                <span class="d-flex align-items-center pb-2"><i class="fa-solid fa-phone me-2"></i>+56999887766</span>
+                <span class="d-flex align-items-center pb-2"><i class="fa-solid fa-envelope me-2"></i>mi_email@gmail.com</span>
+                <span class="d-flex align-items-center pb-2"><i class="fa-brands fa-linkedin me-2"></i>Linkedin</span>
+                <span class="d-flex align-items-center pb-2"><i class="fa-brands fa-github me-2"></i>GitHub</span>
+                <span class="d-flex align-items-center pb-2"><i class="fa-brands fa-instagram me-2"></i>Instagram</span>
             </div>
         </div>
     </section>
